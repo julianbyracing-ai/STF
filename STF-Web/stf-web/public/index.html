@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STF · Superliga de Touch Football</title>
+<meta name="description" content="Superliga de Touch Football: tablas, resultados, fixtures, equipos, estadísticas y noticias.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23000'/%3E%3Ctext x='32' y='44' font-size='30' font-family='Impact,sans-serif' fill='%23d4af37' text-anchor='middle'%3ESTF%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="wrap header-row">
+    <a class="logo" href="#/"><span class="logo-ball">🏈</span><span><b>STF</b><small>SUPERLIGA DE TOUCH FOOTBALL</small></span></a>
+    <form id="searchForm" class="search" role="search"><input id="searchInput" type="search" placeholder="Buscar equipos, jugadores, noticias…" aria-label="Buscar" maxlength="60"></form>
+    <select id="seasonSelect" aria-label="Temporada"></select>
+    <a id="adminPill" class="pill" href="#/admin" hidden>ADMIN</a>
+    <button id="menuBtn" class="menu-btn" aria-label="Menú">☰</button>
+  </div>
+  <nav id="nav" class="nav"><div class="wrap nav-row"></div></nav>
+</header>
+<main id="app" class="wrap" tabindex="-1"></main>
+<footer class="footer"><div class="wrap">STF · Superliga de Touch Football — <span id="footSeason"></span></div></footer>
+<div id="toasts" aria-live="polite"></div>
+<dialog id="dlg"></dialog>
+<script src="/app.js"></script>
+</body>
+</html>

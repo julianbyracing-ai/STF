@@ -1,0 +1,9 @@
+{
+  "name": "stf-superliga-web",
+  "version": "1.0.0",
+  "description": "Superliga de Touch Football (STF) - sitio web con panel de administración",
+  "main": "server.js",
+  "private": true,
+  "scripts": { "start": "node server.js", "test": "node tools/smoke-test.js" },
+  "engines": { "node": ">=22.13" }
+}
